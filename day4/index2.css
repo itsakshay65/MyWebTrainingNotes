@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://www.hptourtravel.com/wp-content/uploads/2020/02/Scope_of_Tourism_In_Himachal_Header_Image.webp);
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.header .logo img {
+    height: 70px;
+}
+
+.navbar a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    height: 40px;
+    width: 27px;
+    
+}
+.navbar a:hover{
+    background-color: blue;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.overlay h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

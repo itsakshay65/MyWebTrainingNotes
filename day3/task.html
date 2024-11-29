@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reunion Form</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Reunion Form</h1>
+    <p style="padding-left: 28%;">Time to rekindle some good ol' memories! See you soon!</p><hr>
+    <div>
+    <form>
+      <p style="padding-left: 26%;">Date:<span><b>25-06-2023</b></span>
+      | Time:<span><b>6pm onwards | </b></span>
+
+    Address:<span><b>Our garage</b></span></p>
+    </div>
+
+      <label for="attendance">Would you like to join us?</label>
+      <input type="radio" id="yes" name="attendance" value="yes"><span>YES</span>
+     
+      <input type="radio" id="no" name="attendance" value="no"><span>NO</span>
+     
+
+      <label for="name" style="padding-top: 40px;">Name: <input type="text" id="name" name="name"></label>
+     
+
+      <label for="phone" style="padding-top: 40px;">Phone:  <input type="tel" id="phone" name="phone"></label>
+    
+
+      <label for="meal-preference" style="padding-top: 40px;">Meal Preference:</label>
+      
+      <label for="vegetarian">Vegetarian<input type="radio" id="vegetarian" name="meal-preference" value="vegetarian"></label>
+      <label for="non-vegetarian">Non-Vegetarian<input type="radio" id="non-vegetarian" name="meal-preference" value="non-vegetarian">
+      </label>
+
+      <label for="games" style="padding-top: 40px;">What kind of games are you interested in?</label>
+     
+      <label for="indoor">Indoor <input type="checkbox" id="indoor" name="games" value="indoor"></label>
+      <label for="board">Board <input type="checkbox" id="board" name="games" value="board">
+      </label>
+      <label for="ball-games">Ball Games<input type="checkbox" id="ball-games" name="games" value="ball-games">
+      </label>
+      <label for="outdoor">Outdoor<input type="checkbox" id="outdoor" name="games" value="outdoor">
+      </label>
+
+      <label for="questions" style="padding-top: 40px;">Do you have any questions?</label>
+      <textarea id="questions" name="questions"></textarea>
+
+      <input type="submit" value="Submit" style="background-color: blue; color: aliceblue;">
+    </form>
+
+    <div class="antisocial-social-club">
+      <p>ANTI SOCIAL SOCIAL CLUB</p>
+    </div>
+  </div>
+</body>
+</html>
